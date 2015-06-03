@@ -1,3 +1,9 @@
+kde-apper-no-autoupdate (3:1.0-1) unstable; urgency=low
+
+  * New upstream version (local package).
+
+ -- Patrick Schleizer <adrelanos@riseup.net>  Wed, 03 Jun 2015 14:59:47 +0000
+
 kde-apper-no-autoupdate (3:0.9-1) unstable; urgency=low
 
   * New upstream version (local package).
