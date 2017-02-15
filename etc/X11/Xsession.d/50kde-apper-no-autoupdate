@@ -2,8 +2,8 @@
 ## Copyright (C) 2012 - 2014 Patrick Schleizer <adrelanos@riseup.net>
 ## See the file COPYING for copying conditions.
 
-if [ -z "$KDEDIRS" ]; then
-   export KDEDIRS=/usr/share/kde-apper-no-autoupdate/
+if [ -z "$XDG_CONFIG_DIRS" ]; then
+   export XDG_CONFIG_DIRS=/usr/share/kde-apper-no-autoupdate/
 else
-   export KDEDIRS=/usr/share/kde-apper-no-autoupdate/:$KDEDIRS
+   export XDG_CONFIG_DIRS=/usr/share/kde-apper-no-autoupdate/:$XDG_CONFIG_DIRS
 fi
